@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="active">
+     <div class="row">
+         <h3>List of Employees</h3>
+         <div class="col-sm-10"></div>
+        <div class="col-sm-1"><button class="btn btn-warning" (click)="form()">+</button></div>
+     </div>
+    <p>Job Tiltle</p>
+     <div class="card">
+        <div class="card-body">
+           {{data.job}}
+        </div>
+      </div>
+    <p>Job Salary</p>
+      <div class="card">
+         <div class="card-body">
+            {{data.salary}}
+         </div>
+       </div>
+   <p>Job Description</p>  
+       <div class="card">
+         <div class="card-body">
+            {{data.description}}
+         </div>
+       </div>
+ </div>
+</div>
